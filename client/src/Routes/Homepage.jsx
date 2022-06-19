@@ -139,7 +139,7 @@ const Homepage = () => {
                         <div className='flex items-center w-11/12 md:4/5'>
                             <div className='w-11/12 md:4/5 bg-slate-200 flex rounded my-8 drop-shadow'>
                                 <label className='w-full relative'>
-                                <input className='w-full p-3 rounded-l' value={query} onChange={(e) => setQuery(e.target.value)} placeholder='Restaurant name or a cuisine..' />
+                                <input className='w-full p-3 rounded-l' value={query} onChange={(e) => setQuery(e.target.value)} placeholder='Restaurant name...' />
                                     {
                                         query.length > 0 && <IoClose onClick={() => handleSearchClear()} className='text-3xl text-slate-500 cursor-pointer absolute top-[10px] right-2'/>
                                     }
